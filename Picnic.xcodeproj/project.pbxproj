@@ -14,6 +14,7 @@
 		65340D692078138600F88460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65340D672078138600F88460 /* LaunchScreen.storyboard */; };
 		65340D742078138600F88460 /* PicnicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65340D732078138600F88460 /* PicnicTests.swift */; };
 		65340D7F2078138600F88460 /* PicnicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65340D7E2078138600F88460 /* PicnicUITests.swift */; };
+		65340D90207814B900F88460 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 65340D8E207814B900F88460 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		65340D7A2078138600F88460 /* PicnicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicnicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65340D7E2078138600F88460 /* PicnicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicUITests.swift; sourceTree = "<group>"; };
 		65340D802078138600F88460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65340D8E207814B900F88460 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,9 @@
 			children = (
 				65340D5E2078138500F88460 /* AppDelegate.swift */,
 				65340D602078138500F88460 /* ViewController.swift */,
-				65340D622078138500F88460 /* Main.storyboard */,
-				65340D652078138600F88460 /* Assets.xcassets */,
-				65340D672078138600F88460 /* LaunchScreen.storyboard */,
+				65340D91207814DF00F88460 /* View */,
 				65340D6A2078138600F88460 /* Info.plist */,
+				65340D8C207814A800F88460 /* Assets */,
 			);
 			path = Picnic;
 			sourceTree = "<group>";
@@ -123,6 +124,24 @@
 				65340D802078138600F88460 /* Info.plist */,
 			);
 			path = PicnicUITests;
+			sourceTree = "<group>";
+		};
+		65340D8C207814A800F88460 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				65340D652078138600F88460 /* Assets.xcassets */,
+				65340D8E207814B900F88460 /* Sounds */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		65340D91207814DF00F88460 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65340D622078138500F88460 /* Main.storyboard */,
+				65340D672078138600F88460 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65340D90207814B900F88460 /* Sounds in Resources */,
 				65340D692078138600F88460 /* LaunchScreen.storyboard in Resources */,
 				65340D662078138600F88460 /* Assets.xcassets in Resources */,
 				65340D642078138500F88460 /* Main.storyboard in Resources */,
